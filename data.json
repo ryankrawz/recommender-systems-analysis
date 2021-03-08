@@ -1,0 +1,148 @@
+{
+    "products": [
+        {
+            "id": "stitchfix",
+            "name": "Stitch Fix",
+            "shortlogo": "assets/product/stitchfixshortlogo.png",
+            "longlogo": "assets/product/stitchfixlonglogo.png",
+            "primarycolor": "#04a49c",
+            "secondarycolor": "#1c88a0",
+            "shortdesc": "**SHORT DESCRIPTION HERE**",
+            "sections": [
+                {
+                    "title": "Description & Main Features",
+                    "image": "assets/product/stitchfixvote.png",
+                    "text": "**TEXT HERE**"
+                },
+                {
+                    "title": "Goals",
+                    "image": "**IMAGE HERE**",
+                    "text": "**TEXT HERE**"
+                },
+                {
+                    "title": "Strengths",
+                    "image": "assets/product/stitchfixnav.png",
+                    "text": "**TEXT HERE**"
+                },
+                {
+                    "title": "Weaknesses",
+                    "image": "**IMAGE HERE**",
+                    "text": "**TEXT HERE**"
+                },
+                {
+                    "title": "Conclusion",
+                    "image": "assets/product/stitchfixcomplete.png",
+                    "text": "**TEXT HERE**"
+                }
+            ]
+        },
+        {
+            "id": "spotify",
+            "name": "Spotify",
+            "shortlogo": "assets/product/spotifyshortlogo.png",
+            "longlogo": "assets/product/spotifylonglogo.png",
+            "primarycolor": "#1cd464",
+            "secondarycolor": "#a6f1c1",
+            "shortdesc": "**SHORT DESCRIPTION HERE**",
+            "sections": [
+                {
+                    "title": "Description & Main Features",
+                    "image": "assets/product/spotifyad.png",
+                    "text": "**TEXT HERE**"
+                },
+                {
+                    "title": "Goals",
+                    "image": "**IMAGE HERE**",
+                    "text": "**TEXT HERE**"
+                },
+                {
+                    "title": "Strengths",
+                    "image": "**IMAGE HERE**",
+                    "text": "**TEXT HERE**"
+                },
+                {
+                    "title": "Weaknesses",
+                    "image": "**IMAGE HERE**",
+                    "text": "**TEXT HERE**"
+                },
+                {
+                    "title": "Conclusion",
+                    "image": "**IMAGE HERE**",
+                    "text": "**TEXT HERE**"
+                }
+            ]
+        },
+        {
+            "id": "netflix",
+            "name": "Netflix",
+            "shortlogo": "assets/product/netflixshortlogo.png",
+            "longlogo": "assets/product/netflixlonglogo.png",
+            "primarycolor": "#b21c23",
+            "secondarycolor": "#ec4447",
+            "shortdesc": "**SHORT DESCRIPTION HERE**",
+            "sections": [
+                {
+                    "title": "Description & Main Features",
+                    "image": "**IMAGE HERE**",
+                    "text": "**TEXT HERE**"
+                },
+                {
+                    "title": "Goals",
+                    "image": "**IMAGE HERE**",
+                    "text": "**TEXT HERE**"
+                },
+                {
+                    "title": "Strengths",
+                    "image": "**IMAGE HERE**",
+                    "text": "**TEXT HERE**"
+                },
+                {
+                    "title": "Weaknesses",
+                    "image": "**IMAGE HERE**",
+                    "text": "**TEXT HERE**"
+                },
+                {
+                    "title": "Conclusion",
+                    "image": "**IMAGE HERE**",
+                    "text": "**TEXT HERE**"
+                }
+            ]
+        },
+        {
+            "id": "instagram",
+            "name": "Instagram",
+            "shortlogo": "assets/product/instagramshortlogo.jpg",
+            "longlogo": "assets/product/instagramlonglogo.png",
+            "primarycolor": "#c40889",
+            "secondarycolor": "#f89f20",
+            "shortdesc": "**SHORT DESCRIPTION HERE**",
+            "sections": [
+                {
+                    "title": "Description & Main Features",
+                    "image": "assets/product/instagramclickpath.png",
+                    "text": "**TEXT HERE**"
+                },
+                {
+                    "title": "Goals",
+                    "image": "assets/product/instagramsearch.png",
+                    "text": "**TEXT HERE**"
+                },
+                {
+                    "title": "Strengths",
+                    "image": "**IMAGE HERE**",
+                    "text": "**TEXT HERE**"
+                },
+                {
+                    "title": "Weaknesses",
+                    "image": "**IMAGE HERE**",
+                    "text": "**TEXT HERE**"
+                },
+                {
+                    "title": "Conclusion",
+                    "image": "**IMAGE HERE**",
+                    "text": "**TEXT HERE**"
+                }
+            ]
+        }
+    ]
+}
