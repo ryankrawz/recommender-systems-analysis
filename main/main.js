@@ -11,7 +11,9 @@ export default function renderMainPage(products) {
         </header>
         <main id="main-content">
             ${getSearchBar()}
-            ${getProducts(products)}
+            <section id="products-section">
+                ${getProducts(products)}
+            </section>
         </main>
     `;
     addHandlers(products);
