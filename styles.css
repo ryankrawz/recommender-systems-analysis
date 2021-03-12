@@ -7,6 +7,19 @@
     margin-bottom: 3%;
 }
 
+.flex-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+
+    flex-direction: row; 
+    justify-content: left; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 10px;
+  }
 .header-img {
     width: 10%;
 }
@@ -16,9 +29,43 @@
     margin-bottom: 3%;
 }
 
-.section-img {
-    width: 20%;
+.nav-item{
+    font-family: Verdana,Geneva,sans-serif; 
 }
+
+.product-title{
+    font-family: 'Trocchi', serif; 
+    font-size: 45px; 
+    font-weight: normal; 
+    line-height: 48px; 
+    margin: 0; 
+}
+
+p{
+    font-family: Verdana,Geneva,sans-serif; 
+}
+
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.search input {
+	width:100%;
+  margin:0.5rem 0 0.5rem 0;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid #7474749d;
+}
+
+[class|=col]{
+    flex-basis: 100%;
+
+}
+
 
 .product-shortdesc {
     display: block;
@@ -26,4 +73,34 @@
 
 .product-button {
     color: white;
+    border-radius: 8px;
+    opacity: .8;
+
 }
+
+.pic{
+    border-radius: 5%;
+    object-fit: cover;
+}
+.row{
+	display: flex;	
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px){
+    .col-1 {flex-basis: 8.33%;} /* width works too */
+    .col-2 {flex-basis: 16.66%;}
+    .col-3 {flex-basis: 25%;}
+    .col-4 {flex-basis: 33.33%;}
+    .col-5 {flex-basis: 41.66%;}
+    .col-6 {flex-basis: 50%;}
+    .col-7 {flex-basis: 58.33%;}
+    .col-8 {flex-basis: 66.66%;}
+    .col-9 {flex-basis: 75%;}
+    .col-10 {flex-basis: 83.33%;}
+    .col-11 {flex-basis: 91.66%;}
+    .col-12 {flex-basis: 100%;}
+    }
+
+
+

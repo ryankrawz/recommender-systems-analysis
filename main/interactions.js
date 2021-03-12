@@ -10,7 +10,7 @@ function addLearnMoreButtonHandler() {
 
 // Search products by user input
 function addProductSearchHandler(products) {
-    document.querySelector('#products-search').addEventListener('input', function(event) {
+    document.querySelector('.search').addEventListener('input', function(event) {
         const searchExp = new RegExp(`${event.target.value}`, 'i');
         const matchingProducts = products.filter(p => searchExp.test(p.name));
         document.querySelector('#products-section').innerHTML = getProducts(matchingProducts);

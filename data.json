@@ -43,32 +43,32 @@
             "longlogo": "assets/product/spotifylonglogo.png",
             "primarycolor": "#1cd464",
             "secondarycolor": "#a6f1c1",
-            "shortdesc": "**SHORT DESCRIPTION HERE**",
+            "shortdesc": "Spotify is an industry leading music streaming platform.",
             "sections": [
                 {
                     "title": "Description & Main Features",
                     "image": "assets/product/spotifyad.png",
-                    "text": "**TEXT HERE**"
+                    "text": "Spotify is a massive music streaming service where users subscribe to an account and are able to listen to music on demand. It has a library of 50 million songs and is constantly aggregating more. Users are able to save songs to their personal library as well as create a playlist of specific songs. In addition users are able to download a playlist so as to listen without internet connection, under some subscriptions. Spotify also facilitates the discovery of new music for its users and has implemented 3 key methods for recommending new songs. The first is known as a filtered approach. This approach is arguably the most straight forward. It looks at playlists created by a user, then looks at similar playlists from other users. From this it will then identify songs which exist in both. Then it will identify songs which may exist in one but not another. After a series of matrix manipulations and mathematics it will produce songs which might be similar to those in the playlist, hence songs the user might enjoy. A second approach they implement utilizes Natural Language Processing. Here spotify scrapes the web for information about songs; this can be reviews, comments, blog posts etc. It is from this information that it then develops a profile of the song itself. This profile is then used to predict songs of a similar profile, much like the filtering approach. The third utilizes convolutional neural networks, CNN. This approach is unique in that it actually analyzes the song itself. Here the songs are converted to waveform and then processed as a stream of bytes. The CNN identifies numerous parameters of the song, including its BPM, key, tempo and the like. From this it can then identify songs which may possess similar qualities and then recommend them. "
                 },
                 {
                     "title": "Goals",
                     "image": "**IMAGE HERE**",
-                    "text": "**TEXT HERE**"
+                    "text": "The goal is rather straightforward, that being to recommend new music to listeners. People always want to hear new songs that they like. Listening to the same songs, while enjoyable, can become stale. In light of this, Spotify wants to be constantly introducing its listeners to new songs so that they never feel stale. This will then persuade them to continue using the service and hence allow spotify to turn a profit. "
                 },
                 {
                     "title": "Strengths",
                     "image": "**IMAGE HERE**",
-                    "text": "**TEXT HERE**"
+                    "text": "The greatest strength is in their utilization of multiple models. This is a very clever idea as it ensures that the company can continue to innovate. Models can have a tendency to fail or otherwise not work, in utilizing 3 distinct models, spotify can ensure that they will be operating effectively and recommend. These models also all utilize different sources of information. As we are still in the early days of some of these models potential, this serves as an information source in determining the strengths and weaknesses of each approach. For instance, it is possible that only the CNN approach is necessary for recommending a new song. Today that is not the case. We see the other models work to great success. Spotify continues to be an industry leader and has seen great success in its recommendation software. Today it sees a 35% market share representing the single largest share of any music streaming service. "
                 },
                 {
                     "title": "Weaknesses",
                     "image": "**IMAGE HERE**",
-                    "text": "**TEXT HERE**"
+                    "text": "In practice these models have performed very well, but that is not to say they go without weaknesses. The largest is rooted in the nature of ML in general. It all starts with the data and the data they are after is not easily accessible nor is it clean. This presents an enormous challenge as the company is required to spend additional energy and funds towards cleaning and optimizing the data so that it can be utilized. For a small company this would be largely impossible to accomplish but on account of the fact that Spotify holds such a large market share, they can manage. "
                 },
                 {
                     "title": "Conclusion",
                     "image": "**IMAGE HERE**",
-                    "text": "**TEXT HERE**"
+                    "text": "Compared to the other products’ implementations of ML spotify appears to be at an advantage in some respects as well as a disadvantage. Its most obvious strength is in that it utilizes multiple models to achieve the same goal. This mitigates the inherent limitations of each approach as well as optimizes the benefits. It also has an advantage in that it utilizes data from both the users as well as outside sources, namely twitter or other textual reviews. This allows it to draw connections which may otherwise remain hidden. In doing so this will uncover an underlying area of consistency which would communicate a very strong indication of being accurate. It falls short of the other products in that perhaps it is overkill. Meaning that while the other approaches are much more simple and not quite as accurate, they are more bang for your buck. Netflix seems to be rather successful at recommending new programs based solely off of the users watch history. Such a simple model is both easier to maintain and implement. "
                 }
             ]
         },
@@ -84,27 +84,27 @@
                 {
                     "title": "Description & Main Features",
                     "image": "**IMAGE HERE**",
-                    "text": "**TEXT HERE**"
+                    "text": "Netflix is really two things: a catalog of titles and a recommendation system. Without titles to watch, no one would purchase the service. Without a recommendation system, users may purchase the service but they would be left on their own to navigate hundreds to thousands of titles. With that many options, users would likely either give up or find something they don’t like before finding something new to watch; they’d be unsubscribed by the next month. So what goes into making a recommendation system that keeps users entertained and satisfied? Here are some of the metrics Netflix uses: how you interact with the service; what other members with similar tastes like; details on the title being recommended (genre, release year, cast, etc); what time of the day you watch; the devices you are watching Netflix on; and how long you watch. "
                 },
                 {
                     "title": "Goals",
                     "image": "**IMAGE HERE**",
-                    "text": "**TEXT HERE**"
+                    "text": "My first instinct is that the goal of this system is to maximize the time spent by the user on the platform. But is that really true? Netflix’s main source of revenue is not ads: it’s subscriptions. That means that Netflix needs to make its users feel that the money they put down was worth it. Given that income is stable, if the user has a negative experience, they will unsubscribe; if the user has a positive experience, they will stay subscribed. Netflix’s goal is not to keep you on the platform: it’s to make you feel that the platform is worth it. Netflix achieves that by presenting its users with a massive library (5,000 titles if you are in the US, and 13,612 worldwide) and then picking out the titles they are most likely to enjoy. With a large enough library and enough data, the algorithm is bound to find something you like, right? "
                 },
                 {
                     "title": "Strengths",
                     "image": "**IMAGE HERE**",
-                    "text": "**TEXT HERE**"
+                    "text": "New users will instantly have access to Netflix’s massive library, but the algorithm won’t know what to recommend. To solve this, Netflix “jump starts” the recommendation process by asking its new user what titles they enjoy. The algorithm then recommends from that pool, but these early data points are later superseded by the user’s expanding viewing history. This covers a blind spot in the algorithm without demanding too much of the user’s time. The more Netflix is used, the more personalized it becomes. Rows (“Continue Watching”, “Trending Now”) appear in the order that the algorithm thinks the user will be most interested in from top to bottom. Then titles in the rows are ranked by what the algorithm thinks are closest to the user’s taste. All of this is done to get the user to discover a title they will like. If the algorithm is successful, it justifies the subscription fee for the consumer."
                 },
                 {
                     "title": "Weaknesses",
                     "image": "**IMAGE HERE**",
-                    "text": "**TEXT HERE**"
+                    "text": "Most of the data is collected without input from the user. This is a double-edged sword. On one end, the algorithm is purely reactive to the user’s habits and decisions, leading to a highly streamlined user experience. On the other, the user has little way to influence the algorithm other than watching content. For example, after completing “Great Pretender” , the user is not prompted if they liked the title and how much they liked it. They can give it a thumbs up or thumbs down on their own, but this is not baked into the core loop of Netflix (search, watch, search, etc)."
                 },
                 {
                     "title": "Conclusion",
                     "image": "**IMAGE HERE**",
-                    "text": "**TEXT HERE**"
+                    "text": "Overall, Netflix’s recommendation system has strengths that vastly compensate for its weaknesses. Its “jump start” system covers the blind spot created by a new user; its adaptation over time makes it a product closer in line with what the viewer wants, raising its value to the user and justifying the subscription fee; and its insistence on keeping the user from inputting feedback data prevents users from doing anything that isn’t consuming the media they want (which is WHY they are paying for the service in the first place). Adding an optional rating system seems interesting at first, but consider how much of the user base would know it exists (let alone use it). This insistence on preserving the core loop and understanding what your customer wants is present in products like Stitch Fix, Spotify, and Instagram too. Stitch Fix knows its customers want to keep clothes they are sent, so they have the customer pick clothes they like or dislike, and then gives them clothing options. Spotify gives its users music and it does not make them “rate” how much they like a song; they either “like” it, ignore it, or go out of their way to “dislike” it. Instagram decides what users want based on what they do as well. This seems to be the winning move for modern software. Besides, who wants to fill out another survey about “customer experience”?"
                 }
             ]
         },
@@ -120,27 +120,27 @@
                 {
                     "title": "Description & Main Features",
                     "image": "assets/product/instagramclickpath.png",
-                    "text": "**TEXT HERE**"
+                    "text": "Instagram’s Explore recommender system has the powerful ability to cultivate a set of specific photos and videos among hundreds of millions of photo and video options through multiple applications of machine learning techniques. In particular, it integrates specially-made query languages into an AI framework that makes almost 100 million photo and video content predictions per second. In order to pinpoint effective content-generation algorithms that perform with optimal memory usage, Instagram’s engineering team developed a Python library known as IGQL, a library that proves beneficial to the team due to its user-friendly and highly-reusable code. IGQL is specifically designed for interaction with Instagram’s Explore recommender system to obtain potential photo and video options based on a user’s recently-viewed content. Instagram’s engineering team has also integrated a filter that obtains photos and videos that are not only similar to one another, but also come from similarly-themed accounts. If a user interacts with a post from a dog-centered account, similar content is pulled from other accounts of that type. That’s why users are more likely to see pictures of dogs from exclusively dog-centered accounts rather than, say, from the accounts of two unrelated users who have both recently shared dog content. The engineering team makes use of the Facebook AI Similarity Search (FAISS) engine for such purposes."
                 },
                 {
                     "title": "Goals",
                     "image": "assets/product/instagramsearch.png",
-                    "text": "**TEXT HERE**"
+                    "text": "So, what are the specific steps that Instagram’s engineering team takes to fulfill its goal of generating specially-curated content on a user’s Explore page? Instagram utilizes a candidate ranking system to do so. Specifically, the team’s machine learning algorithm works with a couple hundred randomly-selected, but related, photo and video options and decides which of these are most suitable for the user’s Explore page. First, Instagram’s machine learning algorithm tracks the public photos and videos viewed by the user in the past, and the accounts responsible for these photos and videos are referred to as the “seed” accounts. These photos and videos are only a very small subset of all of the photo and video content publicly available on Instagram that pertains to the user’s determined areas of interest. While the “seed” accounts might not be optimal if the user is new to Instagram, later “seed” accounts will become more useful for the generation of related content. This is because the accounts of the content that the user views on the Explore page will later become the “seed” accounts responsible for the next set of content generated on the page. Next, the algorithm uses a technique that identifies other accounts that share similarities with the “seed” accounts. As a result, the photo and video content from these external accounts is obtained, and among this content, 500 photo and video candidates are randomly sampled and put up for consideration for inclusion on the user’s Explore page. Similar to the case of the “seed” accounts, subsequent sets of 500 candidates will consist of content even more specific to the user’s interests. Given these photo and video candidates, the algorithm’s final step is to carry out a ranking process consisting of three phases. In the first phase, the algorithm selects the 150 most highly-related and high-quality of the original 500 photo and video candidates. The second phase further filters the photo and video candidates by making use of a neural network model that reduces the candidate pool to 50 photos and videos. In the third and final phase, more sophisticated deep learning techniques are used to select the 25 highest-related and best quality photos and videos among the remaining 50 candidates."
                 },
                 {
                     "title": "Strengths",
                     "image": "**IMAGE HERE**",
-                    "text": "**TEXT HERE**"
+                    "text": "No other social media recommender system curates user-specific content as well as that integrated with Instagram’s Explore feature. With its integration of an automated ranking-based machine learning algorithm for its Explore page, Instagram is the ultimate social media app for drawing users together from all over the world. Thanks to the advanced functionality of Instagram’s Explore recommender system, the content a user desires is just a few clicks away. As users’ interests change, so will their Explore pages--so long as users actually demonstrate interest in new topics by interacting with them. In fact, interacting with the photo and video content generated by Instagram’s Explore page can be thought of as searching for images through a modern web browser, with the added bonus of being able to do so in a social environment "
                 },
                 {
                     "title": "Weaknesses",
                     "image": "**IMAGE HERE**",
-                    "text": "**TEXT HERE**"
+                    "text": "Despite all of its benefits, Instagram’s Explore recommender system can get a bit too specific. What if, for example, a user interacts with a couple dog photos without any real interest, and no other types of photos? Then the user’s newly-curated Explore page might now be infested with dog photos. What if, as another example, the user doesn’t focus on a specific topic while interacting with photo and video content? Then the user’s Explore page might now not be curated to his or her actual interests. Indeed, Instagram’s Explore recommender system is a double-edged sword."
                 },
                 {
                     "title": "Conclusion",
                     "image": "**IMAGE HERE**",
-                    "text": "**TEXT HERE**"
+                    "text": "In comparison to the features of other recommender systems such as those of Stitch Fix, Spotify, and Netflix, Instagram’s Explore recommender system shines as a result of its incredibly fast, user-focused content curation. Additionally, as opposed to what is reflected by Netflix’s row-based ranking system, usage of Instagram’s Explore feature involves frequent user feedback, allowing the recommender system to quickly decide which content is relevant to the user’s interests. Instagram’s high recommendation speed is on par with that of Spotify and Stitch Fix because music entries, and especially information pertaining to clothing items, do not take much time to interact with. Specifically, the rapid content curation facilitated by Instagram’s Explore recommender system is due in large part to the frequent user input it receives--access to a photo or video is only a tap away, meaning that numerous photos and videos will be accessed by the user in a relatively short time frame. Unlike Spotify and Netflix, however, Instagram does not initially ask the user about his or her topics of interest. As a result, new Instagram users will likely be exposed to a large amount of content that does not fit their interests, but this can be quickly overcome once the user begins to engage with his or her interests. This disadvantage is similar to that demonstrated by Stitch Fix’s recommender system, which relies on the user’s reactions to various clothes in order to adjust the user’s clothing profile accordingly."
                 }
             ]
         }
