@@ -4,15 +4,9 @@ export default function getProducts(products) {
     return products.map(p => {
         return `
             <div class= "row">
-                    <div class="col-6">
-                        <div class="product-title"
-                            <h2>${p.name}</h2>
-                            <br>
-                        </div>
-
+                <div class="col-6">
                     <img class="pic" src="${p.longlogo}" width="60%">
-                    <br>
-                    </div>
+                </div>
 
 
                 <div class="col-6">

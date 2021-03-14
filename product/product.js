@@ -9,16 +9,16 @@ export default function renderProductPage(product) {
 
     switch (product.id) {
         case 'stitchfix': 
-            document.getElementsByClassName('container')[0].innerHTML = StitchFix(product);
+            document.querySelector('.container').innerHTML = StitchFix(product);
             break;
         case 'spotify': 
-            document.getElementsByClassName('container')[0].innerHTML = Spotify(product);
+            document.querySelector('.container').innerHTML = Spotify(product);
             break;
         case 'netflix': 
-            document.getElementsByClassName('container')[0].innerHTML = Netflix(product);
+            document.querySelector('.container').innerHTML = Netflix(product);
             break;
         case 'instagram': 
-            document.getElementsByClassName('container')[0].innerHTML = Instagram(product);
+            document.querySelector('.container').innerHTML = Instagram(product);
             break;
     }
         
