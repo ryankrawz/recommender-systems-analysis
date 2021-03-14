@@ -1,7 +1,13 @@
 
-#main-header-text {
-    display: inline;
+/* main header css */
+#main-header {
+    padding-top: 80px;
 }
+
+#main-header-text {
+    text-align: center;
+}
+/* *************** */
 
 #products-search {
     margin-top: 3%;
@@ -31,10 +37,6 @@
     margin-bottom: 3%;
 }
 
-.nav-item{
-    font-family: Verdana,Geneva,sans-serif; 
-}
-
 .product-title{
     font-family: 'Trocchi', serif; 
     font-size: 45px; 
@@ -46,8 +48,6 @@
 p{
     font-family: Verdana,Geneva,sans-serif; 
 }
-
-
 
 .container{
     width: 90%;
@@ -116,6 +116,38 @@ h2 {
 img {
     max-width: 50%;
 }
+
+/* nav bar css */
+nav {
+    background-color: white;
+    /* flex element */
+    display: flex; 
+    flex-wrap: wrap;
+    /* center the content in the flex element */
+    justify-content: center;
+    /* generate padding around the flex element */
+    padding: 10px 10px;
+    /* make the position fixed at the top of the screen */
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* ensure the width is all the screen */
+    width: 100%;
+    /* make sure this is always in the front */
+    z-index: 100;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item{
+    font-family: Verdana,Geneva,sans-serif;
+    padding: 20px;
+}
+
+/* ************ */
 
 
 

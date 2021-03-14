@@ -9,17 +9,17 @@ function addLearnMoreButtonHandler() {
 }
 
 // Search products by user input
-function addProductSearchHandler(products) {
-    document.querySelector('.search').addEventListener('input', function(event) {
-        const searchExp = new RegExp(`${event.target.value}`, 'i');
-        const matchingProducts = products.filter(p => searchExp.test(p.name));
-        document.querySelector('#products-section').innerHTML = getProducts(matchingProducts);
-        addLearnMoreButtonHandler();
-    });
-}
+// function addProductSearchHandler(products) {
+//     document.querySelector('.search').addEventListener('input', function(event) {
+//         const searchExp = new RegExp(`${event.target.value}`, 'i');
+//         const matchingProducts = products.filter(p => searchExp.test(p.name));
+//         document.querySelector('#products-section').innerHTML = getProducts(matchingProducts);
+//         addLearnMoreButtonHandler();
+//     });
+// }
 
 // Add event handlers to main page
 export default function addHandlers(products) {
-    addProductSearchHandler(products);
+    // addProductSearchHandler(products);
     addLearnMoreButtonHandler();
 }
