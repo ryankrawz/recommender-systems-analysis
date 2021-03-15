@@ -20,8 +20,8 @@
     margin-bottom: 10px;
     margin-bottom: 10px;
 
-    flex-direction: row; 
-    justify-content: left; 
+    flex-direction: row;
+    justify-content: left;
     position: fixed;
     top: 0;
     left: 0;
@@ -38,15 +38,15 @@
 }
 
 .product-title{
-    font-family: 'Trocchi', serif; 
-    font-size: 45px; 
-    font-weight: normal; 
-    line-height: 48px; 
-    margin: 0; 
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 0;
 }
 
 p{
-    font-family: Verdana,Geneva,sans-serif; 
+    font-family: Verdana,Geneva,sans-serif;
 }
 
 .container{
@@ -88,7 +88,7 @@ p{
     object-fit: cover;
 }
 .row{
-	display: flex;	
+	display: flex;
     flex-wrap: wrap;
     align-items: center;;
 }
@@ -122,7 +122,7 @@ img {
 nav {
     background-color: white;
     /* flex element */
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
     /* center the content in the flex element */
     justify-content: space-evenly;
@@ -134,7 +134,7 @@ nav {
     width: 100%;
     /* make sure this is always in the front */
     z-index: 100;
-    
+
 }
 .navbar {
     display: flex;
@@ -142,12 +142,17 @@ nav {
     justify-content: center;
 }
 
-.nav-item{
+.nav-item {
     font-family: Verdana,Geneva,sans-serif;
     padding: 20px;
 }
 
+.nav-link {
+    color: #555555;
+}
+
+.nav-link:hover {
+    color: #7474749d;
+}
+
 /* ************ */
-
-
-
