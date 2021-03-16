@@ -121,8 +121,7 @@ img {
 
 /* nav bar css */
 nav {
-    background-color: white;
-    background: rgba(128, 128, 128, 0.1);
+    background-color: #DCDCDC;
     /* flex element */
     display: flex;
     flex-wrap: wrap;
