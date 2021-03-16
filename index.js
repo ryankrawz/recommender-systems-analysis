@@ -15,7 +15,6 @@ fetch(dataTarget).then(response => {
         if (currentProductId) {
             const matchingProducts = data.products.filter(p => p.id === currentProductId);
             if (matchingProducts.length === 1) {
-                console.log(matchingProducts[0]);
                 renderProductPage(matchingProducts[0]);
             } else {
                 console.error(`Zero or multiple products found for id '${currentProductId}'`);

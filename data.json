@@ -52,22 +52,22 @@
                 },
                 {
                     "title": "Goals",
-                    "image": "assets/product/Spotify.jpg",
+                    "image": "assets/product/spotifysign.jpg",
                     "text": "The goal is rather straightforward, that being to recommend new music to listeners. People always want to hear new songs that they like. Listening to the same songs, while enjoyable, can become stale. In light of this, Spotify wants to be constantly introducing its listeners to new songs so that they never feel stale. This will then persuade them to continue using the service and hence allow spotify to turn a profit. "
                 },
                 {
                     "title": "Strengths",
-                    "image": "assets/product/images.jpg",
+                    "image": "assets/product/spotifylove.jpg",
                     "text": "The greatest strength is in their utilization of multiple models. This is a very clever idea as it ensures that the company can continue to innovate. Models can have a tendency to fail or otherwise not work, in utilizing 3 distinct models, spotify can ensure that they will be operating effectively and recommend. These models also all utilize different sources of information. As we are still in the early days of some of these models potential, this serves as an information source in determining the strengths and weaknesses of each approach. For instance, it is possible that only the CNN approach is necessary for recommending a new song. Today that is not the case. We see the other models work to great success. Spotify continues to be an industry leader and has seen great success in its recommendation software. Today it sees a 35% market share representing the single largest share of any music streaming service. "
                 },
                 {
                     "title": "Weaknesses",
-                    "image": "assets/product/139236-apps-news-feature-what-is-spotify-and-how-does-it-workimage1-71xhfr5dgv.jpg",
+                    "image": "assets/product/spotifyui.jpg",
                     "text": "In practice these models have performed very well, but that is not to say they go without weaknesses. The largest is rooted in the nature of ML in general. It all starts with the data and the data they are after is not easily accessible nor is it clean. This presents an enormous challenge as the company is required to spend additional energy and funds towards cleaning and optimizing the data so that it can be utilized. For a small company this would be largely impossible to accomplish but on account of the fact that Spotify holds such a large market share, they can manage. "
                 },
                 {
                     "title": "Conclusion",
-                    "image": "assets/product/rfagrsbyxsc8ksvjt2lb.jpg",
+                    "image": "assets/product/spotifyapp.jpg",
                     "text": "Compared to the other products’ implementations of ML spotify appears to be at an advantage in some respects as well as a disadvantage. Its most obvious strength is in that it utilizes multiple models to achieve the same goal. This mitigates the inherent limitations of each approach as well as optimizes the benefits. It also has an advantage in that it utilizes data from both the users as well as outside sources, namely twitter or other textual reviews. This allows it to draw connections which may otherwise remain hidden. In doing so this will uncover an underlying area of consistency which would communicate a very strong indication of being accurate. It falls short of the other products in that perhaps it is overkill. Meaning that while the other approaches are much more simple and not quite as accurate, they are more bang for your buck. Netflix seems to be rather successful at recommending new programs based solely off of the users watch history. Such a simple model is both easier to maintain and implement. "
                 }
             ]
@@ -83,12 +83,12 @@
             "sections": [
                 {
                     "title": "Description & Main Features",
-                    "image": "/assets/product/netflixshortlogo.png",
+                    "image": "assets/product/netflixshortlogo.png",
                     "text": "Netflix is really two things: a catalog of titles and a recommendation system. Without titles to watch, no one would purchase the service. Without a recommendation system, users may purchase the service but they would be left on their own to navigate hundreds to thousands of titles. With that many options, users would likely either give up or find something they don’t like before finding something new to watch; they’d be unsubscribed by the next month. So what goes into making a recommendation system that keeps users entertained and satisfied? Here are some of the metrics Netflix uses: how you interact with the service; what other members with similar tastes like; details on the title being recommended (genre, release year, cast, etc); what time of the day you watch; the devices you are watching Netflix on; and how long you watch. "
                 },
                 {
                     "title": "Goals",
-                    "image": "/assets/product/netflixextra.jpeg",
+                    "image": "assets/product/netflixextra.jpeg",
                     "text": "My first instinct is that the goal of this system is to maximize the time spent by the user on the platform. But is that really true? Netflix’s main source of revenue is not ads: it’s subscriptions. That means that Netflix needs to make its users feel that the money they put down was worth it. Given that income is stable, if the user has a negative experience, they will unsubscribe; if the user has a positive experience, they will stay subscribed. Netflix’s goal is not to keep you on the platform: it’s to make you feel that the platform is worth it. Netflix achieves that by presenting its users with a massive library (5,000 titles if you are in the US, and 13,612 worldwide) and then picking out the titles they are most likely to enjoy. With a large enough library and enough data, the algorithm is bound to find something you like, right? "
                 },
                 {
@@ -98,12 +98,12 @@
                 },
                 {
                     "title": "Weaknesses",
-                    "image": "/assets/product/netflixpage.jpeg",
+                    "image": "assets/product/netflixpage.jpeg",
                     "text": "Most of the data is collected without input from the user. This is a double-edged sword. On one end, the algorithm is purely reactive to the user’s habits and decisions, leading to a highly streamlined user experience. On the other, the user has little way to influence the algorithm other than watching content. For example, after completing “Great Pretender” , the user is not prompted if they liked the title and how much they liked it. They can give it a thumbs up or thumbs down on their own, but this is not baked into the core loop of Netflix (search, watch, search, etc)."
                 },
                 {
                     "title": "Conclusion",
-                    "image": "/assets/product/netflixlast.jpeg",
+                    "image": "assets/product/netflixlast.jpeg",
                     "text": "Overall, Netflix’s recommendation system has strengths that vastly compensate for its weaknesses. Its “jump start” system covers the blind spot created by a new user; its adaptation over time makes it a product closer in line with what the viewer wants, raising its value to the user and justifying the subscription fee; and its insistence on keeping the user from inputting feedback data prevents users from doing anything that isn’t consuming the media they want (which is WHY they are paying for the service in the first place). Adding an optional rating system seems interesting at first, but consider how much of the user base would know it exists (let alone use it). This insistence on preserving the core loop and understanding what your customer wants is present in products like Stitch Fix, Spotify, and Instagram too. Stitch Fix knows its customers want to keep clothes they are sent, so they have the customer pick clothes they like or dislike, and then gives them clothing options. Spotify gives its users music and it does not make them “rate” how much they like a song; they either “like” it, ignore it, or go out of their way to “dislike” it. Instagram decides what users want based on what they do as well. This seems to be the winning move for modern software. Besides, who wants to fill out another survey about “customer experience”?"
                 }
             ]
@@ -129,17 +129,17 @@
                 },
                 {
                     "title": "Strengths",
-                    "image": "**IMAGE HERE**",
+                    "image": "assets/product/instagramexplore.png",
                     "text": "No other social media recommender system curates user-specific content as well as that integrated with Instagram’s Explore feature. With its integration of an automated ranking-based machine learning algorithm for its Explore page, Instagram is the ultimate social media app for drawing users together from all over the world. Thanks to the advanced functionality of Instagram’s Explore recommender system, the content a user desires is just a few clicks away. As users’ interests change, so will their Explore pages--so long as users actually demonstrate interest in new topics by interacting with them. In fact, interacting with the photo and video content generated by Instagram’s Explore page can be thought of as searching for images through a modern web browser, with the added bonus of being able to do so in a social environment "
                 },
                 {
                     "title": "Weaknesses",
-                    "image": "**IMAGE HERE**",
+                    "image": "assets/product/instagramdogs.png",
                     "text": "Despite all of its benefits, Instagram’s Explore recommender system can get a bit too specific. What if, for example, a user interacts with a couple dog photos without any real interest, and no other types of photos? Then the user’s newly-curated Explore page might now be infested with dog photos. What if, as another example, the user doesn’t focus on a specific topic while interacting with photo and video content? Then the user’s Explore page might now not be curated to his or her actual interests. Indeed, Instagram’s Explore recommender system is a double-edged sword."
                 },
                 {
                     "title": "Conclusion",
-                    "image": "**IMAGE HERE**",
+                    "image": "assets/product/instagramfeatures.png",
                     "text": "In comparison to the features of other recommender systems such as those of Stitch Fix, Spotify, and Netflix, Instagram’s Explore recommender system shines as a result of its incredibly fast, user-focused content curation. Additionally, as opposed to what is reflected by Netflix’s row-based ranking system, usage of Instagram’s Explore feature involves frequent user feedback, allowing the recommender system to quickly decide which content is relevant to the user’s interests. Instagram’s high recommendation speed is on par with that of Spotify and Stitch Fix because music entries, and especially information pertaining to clothing items, do not take much time to interact with. Specifically, the rapid content curation facilitated by Instagram’s Explore recommender system is due in large part to the frequent user input it receives--access to a photo or video is only a tap away, meaning that numerous photos and videos will be accessed by the user in a relatively short time frame. Unlike Spotify and Netflix, however, Instagram does not initially ask the user about his or her topics of interest. As a result, new Instagram users will likely be exposed to a large amount of content that does not fit their interests, but this can be quickly overcome once the user begins to engage with his or her interests. This disadvantage is similar to that demonstrated by Stitch Fix’s recommender system, which relies on the user’s reactions to various clothes in order to adjust the user’s clothing profile accordingly."
                 }
             ]
