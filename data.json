@@ -26,7 +26,7 @@
                 },
                 {
                     "title": "Weaknesses",
-                    "image": "assets/product/stitchfeatureengineering.png",
+                    "image": "assets/product/stitchfixfeatureengineering.png",
                     "text": "An obvious weakness for Stitch Fix is the presence of the human element involved in creating a customer’s Fix. The stylists employed by Stitch Fix represent more salary and benefit-related liability on the company balance sheet, and introduce a certain degree of bias to clothing selection since people lack the ability to make fully objective decisions. As a further note, the stylist is a pain point for both Stitch Fix and its customers. If a customer receives a poorly curated Fix, most of their frustration will be directed towards the stylist, and the company may be tempted to think the problem lies in the stylist and fail to continue developing the recommender system itself. One consideration for Stitch Fix is to apply natural language processing to user feedback in order to adjust a user’s profile as they rate the clothes they receive. Another, more implicit weakness for Stitch Fix will be harder to solve. On a fundamental level, Stitch Fix is attempting to create a feature engineering model for fashion itself. However, the concept of fashion is amorphous, and the tastes of the public are endlessly evolving, even to the point where some customers may not wear a single item from a Fix they received a few months ago. The machine learning process is difficult enough in fields like facial recognition, where researchers enjoy the luxury of the human facial structure taking hundreds of thousands, if not millions, of years to change. Unfortunately, the same cannot be said for the task of reliably measuring and quantifying something as subjective and ill-defined as fashion."
                 },
                 {
@@ -62,7 +62,7 @@
                 },
                 {
                     "title": "Weaknesses",
-                    "image": "assets/roduct/139236-apps-news-feature-what-is-spotify-and-how-does-it-workimage1-71xhfr5dgv.jpg",
+                    "image": "assets/product/139236-apps-news-feature-what-is-spotify-and-how-does-it-workimage1-71xhfr5dgv.jpg",
                     "text": "In practice these models have performed very well, but that is not to say they go without weaknesses. The largest is rooted in the nature of ML in general. It all starts with the data and the data they are after is not easily accessible nor is it clean. This presents an enormous challenge as the company is required to spend additional energy and funds towards cleaning and optimizing the data so that it can be utilized. For a small company this would be largely impossible to accomplish but on account of the fact that Spotify holds such a large market share, they can manage. "
                 },
                 {
