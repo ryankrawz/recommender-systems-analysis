@@ -52,22 +52,22 @@
                 },
                 {
                     "title": "Goals",
-                    "image": "**IMAGE HERE**",
+                    "image": "assets/product/Spotify.jpg",
                     "text": "The goal is rather straightforward, that being to recommend new music to listeners. People always want to hear new songs that they like. Listening to the same songs, while enjoyable, can become stale. In light of this, Spotify wants to be constantly introducing its listeners to new songs so that they never feel stale. This will then persuade them to continue using the service and hence allow spotify to turn a profit. "
                 },
                 {
                     "title": "Strengths",
-                    "image": "**IMAGE HERE**",
+                    "image": "assets/product/images.jpg",
                     "text": "The greatest strength is in their utilization of multiple models. This is a very clever idea as it ensures that the company can continue to innovate. Models can have a tendency to fail or otherwise not work, in utilizing 3 distinct models, spotify can ensure that they will be operating effectively and recommend. These models also all utilize different sources of information. As we are still in the early days of some of these models potential, this serves as an information source in determining the strengths and weaknesses of each approach. For instance, it is possible that only the CNN approach is necessary for recommending a new song. Today that is not the case. We see the other models work to great success. Spotify continues to be an industry leader and has seen great success in its recommendation software. Today it sees a 35% market share representing the single largest share of any music streaming service. "
                 },
                 {
                     "title": "Weaknesses",
-                    "image": "**IMAGE HERE**",
+                    "image": "assets/roduct/139236-apps-news-feature-what-is-spotify-and-how-does-it-workimage1-71xhfr5dgv.jpg",
                     "text": "In practice these models have performed very well, but that is not to say they go without weaknesses. The largest is rooted in the nature of ML in general. It all starts with the data and the data they are after is not easily accessible nor is it clean. This presents an enormous challenge as the company is required to spend additional energy and funds towards cleaning and optimizing the data so that it can be utilized. For a small company this would be largely impossible to accomplish but on account of the fact that Spotify holds such a large market share, they can manage. "
                 },
                 {
                     "title": "Conclusion",
-                    "image": "**IMAGE HERE**",
+                    "image": "assets/product/rfagrsbyxsc8ksvjt2lb.jpg",
                     "text": "Compared to the other products’ implementations of ML spotify appears to be at an advantage in some respects as well as a disadvantage. Its most obvious strength is in that it utilizes multiple models to achieve the same goal. This mitigates the inherent limitations of each approach as well as optimizes the benefits. It also has an advantage in that it utilizes data from both the users as well as outside sources, namely twitter or other textual reviews. This allows it to draw connections which may otherwise remain hidden. In doing so this will uncover an underlying area of consistency which would communicate a very strong indication of being accurate. It falls short of the other products in that perhaps it is overkill. Meaning that while the other approaches are much more simple and not quite as accurate, they are more bang for your buck. Netflix seems to be rather successful at recommending new programs based solely off of the users watch history. Such a simple model is both easier to maintain and implement. "
                 }
             ]
