@@ -5,6 +5,7 @@
 }
 
 #main-header-text {
+    padding-top: 3%;
     text-align: center;
 }
 /* *************** */
@@ -121,6 +122,7 @@ img {
 /* nav bar css */
 nav {
     background-color: white;
+    background: rgba(128, 128, 128, 0.1);
     /* flex element */
     display: flex;
     flex-wrap: wrap;
@@ -136,6 +138,7 @@ nav {
     z-index: 100;
 
 }
+
 .navbar {
     display: flex;
     flex-wrap: wrap;
